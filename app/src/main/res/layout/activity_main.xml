@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="0dp"
+        android:layout_marginStart="0dp"
+        android:background="#8BC34A"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Conectar"
+        android:textColor="#231515"
+        android:textColorLink="#0E0909" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#9CD59E"
+        android:backgroundTint="#40ED47"
+        android:ems="10"
+        android:hint="Correo..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#4AAB4D"
+        android:backgroundTint="#306A33"
+        android:ems="10"
+        android:hint="Contraseña..."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Iniciar Sesión"
+        android:textColor="#171010" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#C6D341"
+        android:backgroundTint="#98E143"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="¿Olvidastes tu contraseña?" />
+
+</LinearLayout>
